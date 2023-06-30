@@ -150,39 +150,38 @@ section .right {
                          PROJECTS
  ********************************************************************* */
 
-.projects-wraper {
+.project-wraper {
   margin: 20px;
 }
-  .project {
-    display: flex;
-    margin-bottom: 20px;
-    background-color: ;
-  }
+.project {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: ;
+}
 
-  .project img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 20px;
-  }
+.project img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
 
-  .project-info {
-    flex-grow: 1;
-  }
+.project-info {
+  flex-grow: 1;
+}
 
-  .project-info h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
+.project-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 
-  .project-info p {
-    margin-bottom: 10px;
-  }
+.project-info p {
+  margin-bottom: 10px;
+}
 
-  .project-info ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
+.project-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 /* *******************************************************************
