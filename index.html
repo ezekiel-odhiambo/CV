@@ -4,21 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">My Logo</div>
-        <ul class="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="./cv.html">Cv</a></li>
-          <li><a href="./project.html">Projects</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
+  <body class="background">
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="./cv.html">Cv</a>
+            <a class="nav-link" href="./projects.html">Projects</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </div>
+        </div>
       </div>
     </nav>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="margin"><h3 class="column-1">Hello, my name is</h3></div>
+        <div class="margin"><h1 class="column-2">Ezekiel Onjura</h1></div>
+        <div class="margin"><h2 class="column-3">Web Developer</h2></div>
+        <div class="margin">
+          <p class="column-4">
+            I create the user-facing components of a website or application. I
+            collaborate with designers and back-end developers to bring the
+            visual and interactive elements to life. My work primarily involves
+            writing code in languages such as HTML, CSS, and JavaScript to build
+            and optimize the structure, layout, and functionality of web pages.
+            I ensure that the user interface is visually appealing, responsive,
+            and intuitive by implementing design specifications, integrating
+            media elements, and enhancing user interactions through animations
+            and dynamic content. I also conduct thorough testing and debugging
+            to ensure optimal performance and cross-browser compatibility.
+            Overall, I play a crucial role in shaping the user experience and
+            translating design concepts into functional and engaging digital
+            interfaces.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img id="img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRuvUPm8q43oWueQa6mAmcRx7v0cRI1cchiA&usqp=CAU"
+      </div>
+    </div>
 
-    <h1>Home Page</h1>
+    <div class="col-4 mb-3 mx-4">
+      <button type="download" id="download">
+        <a href="./cv.html" download>Download Cv</a>
+      </button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
