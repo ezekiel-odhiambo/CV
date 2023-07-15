@@ -2,12 +2,12 @@
                                 site wide 
 ******************************************************************/
 html {
-  overflow-y: scroll;
+
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /*FONTS*/
@@ -65,9 +65,7 @@ h5 {
 .column-2 {
   color: azure;
 }
-.margin {
-  margin: 20px;
-}
+
 .column-2 {
   font-size: 75px;
 }
@@ -97,12 +95,7 @@ h5 {
 #download a:hover {
   color: blue;
 }
-#img {
-  width: 650px;
-  height: 450px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
+
 .background {
   background-color: #060505;
 }
