@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-6">
             <label for="firstName"
-              ><span class="fname">First Name:</span></label
+              ><span class="fname" class="form-label">First Name:</span></label
             >
             <input
               type="text"
@@ -60,7 +60,9 @@
           </div>
 
           <div class="col-6">
-            <label for="lastName"><span class="lname">Last Name:</span></label>
+            <label for="lastName" class="form-label"
+              ><span class="lname">Last Name:</span></label
+            >
             <input
               type="text"
               class="form-control"
@@ -72,6 +74,7 @@
           </div>
 
           <div class="col-8 form-floating mt-3">
+            <label for="floatingInput" class="form-label">Email address</label>
             <input
               type="email"
               class="form-control"
@@ -80,11 +83,12 @@
               name="email"
               required
             />
-            <label for="floatingInput">Email address</label>
           </div>
 
           <div class="col-7 mt-3">
-            <label for="phone"><span class="tel">Phone:</span></label>
+            <label for="phone" class="form-label"
+              ><span class="tel">Phone:</span></label
+            >
             <input
               type="number"
               class="form-control"
@@ -96,6 +100,7 @@
         </div>
 
         <div class="form-floating mt-3">
+          <label for="floatingTextarea" class="form-label">Message</label>
           <textarea
             class="form-control"
             placeholder="Leave a comment here"
@@ -103,7 +108,6 @@
             required
             name="message"
           ></textarea>
-          <label for="floatingTextarea">Message</label>
         </div>
         <input
           type="hidden"
@@ -112,7 +116,7 @@
         />
         <input type="hidden" name="_captcha" value="false" />
         <span id="button"
-          ><input class="btn btn-primary" type="submit" value="Submit"
+          ><input class="btn btn-primary" type="submit" value="submit"
         /></span>
       </form>
     </div>
